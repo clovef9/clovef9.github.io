@@ -4,8 +4,11 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="article title, Hexo">
-    <meta name="description" content="article title | Hexo">
+    <meta name="keywords" content="typora-vue-theme�������, Hexo">
+    <meta name="description" content="
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +16,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>article title | Hexo</title>
+    <title>typora-vue-theme������� | Hexo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -410,12 +413,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">article title</h1>
+                    <h1 class="description center-align post-title">typora-vue-theme�������</h1>
                 </div>
             </div>
         </div>
@@ -544,7 +547,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-02-13
+                    2018-09-07
                 </div>
                 
 
@@ -561,7 +564,25 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -576,7 +597,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://clovef9.github.io" rel="external nofollow noreferrer">John Doe</a>
+                    <a href="http://clovef9.github.io" rel="external nofollow noreferrer">�̸���</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -586,7 +607,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://clovef9.github.io/2020/02/13/article-title/">http://clovef9.github.io/2020/02/13/article-title/</a>
+                    <a href="http://clovef9.github.io/2018/09/07/article-title/">http://clovef9.github.io/2018/09/07/article-title/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -599,7 +620,7 @@
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="http://clovef9.github.io" target="_blank">John Doe</a>
+                    <a href="http://clovef9.github.io" target="_blank">�̸���</a>
                     !
                 </span>
             </div>
@@ -792,29 +813,32 @@
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/2020/02/13/article-title/">
+                <a href="/2018/09/07/article-title/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="article title">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="typora-vue-theme�������">
                         
-                        <span class="card-title">article title</span>
+                        <span class="card-title">typora-vue-theme�������</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
                             
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-13
+                                <i class="far fa-clock fa-fw icon-date"></i>2018-09-07
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
-                            John Doe
+                            �̸���
                             
                         </span>
                     </div>
@@ -830,29 +854,32 @@
                 本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2020/02/13/article-title/">
+                <a href="/2018/09/07/article-title/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="article title">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="typora-vue-theme�������">
                         
-                        <span class="card-title">article title</span>
+                        <span class="card-title">typora-vue-theme�������</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
                             
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-02-13
+                                <i class="far fa-clock fa-fw icon-date"></i>2018-09-07
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
-                            John Doe
+                            �̸���
                             
                         </span>
                     </div>
